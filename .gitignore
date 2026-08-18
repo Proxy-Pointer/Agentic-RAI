@@ -1,0 +1,41 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual Environment ───────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Environment & Secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── IDE & OS ──────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Test & Coverage ───────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Dev Artifacts (internal planning docs, not for public repo) ───────────────
+artifacts/
+
+# ── ChromaDB persistence (if switched from in-memory) ────────────────────────
+chroma_db/
+*.chroma
