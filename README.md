@@ -15,8 +15,10 @@ This repository contains an experimental sandbox for building production-ready, 
 ## Architecture
 
 *   **Backend:** Python 3.9+, FastAPI, Uvicorn, ChromaDB (in-memory)
-*   **LLM & Embeddings:** Google Gemini (`gemini-2.0-flash-lite`, `gemini-embedding-001`) via the `google-genai` SDK.
+*   **LLM & Embeddings:** Google Gemini (`gemini-3.1-flash-lite`, `gemini-embedding-001`) via the `google-genai` SDK.
 *   **Frontend:** Vanilla HTML/JS/CSS (served statically by FastAPI)
+
+*For more details, refer to the article on Towards Data Science — [From Prototype to Production: The Architecture Behind Secure & Governed AI Agents](https://towardsdatascience.com/from-prototype-to-production-the-architecture-behind-secure-governed-ai-agents/)*
 
 ## Setup Instructions
 
